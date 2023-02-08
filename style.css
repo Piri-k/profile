@@ -1,0 +1,65 @@
+body {
+  background-color:#F0E3CA;
+  color: #CA431D;
+  font-family: 'Solitreo', cursive;
+  font-size: 17px;
+  font-weight: lighter;
+}
+h1,h2,h3{
+  font-family: 'Cinzel', serif;
+}
+h1 {
+  color: #5E1043;
+  font-size: 32px;
+  font-weight: 600;
+}
+h2 {
+  color: #ED5107;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 700;
+}
+a {
+  font-family: 'Josefin Slab', serif;
+  text-decoration: none;
+  color: #8B104E;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: #ED5107;
+}
+.card {
+  background-color:#F0E3CA;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px 15px 15px;
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #ed5107
+}
+.list-inline i:hover {
+  color: #5E1043;
+}
+.btn-purple {
+  background-color: #5E1043;
+  color: #ED5107;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-purple:hover {
+  background-color:#CA431D;
+  color: #5E1043;
+}
